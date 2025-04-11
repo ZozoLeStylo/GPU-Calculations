@@ -1,0 +1,5 @@
+    PID TTY      STAT   TIME COMMAND
+   1450 ?        Ss     0:00 /usr/lib/systemd/systemd --user
+   1452 ?        S      0:00 (sd-pam)
+   1468 tty1     Ss     0:00 -bash
+   2005 tty1     R+     0:00 ps -x

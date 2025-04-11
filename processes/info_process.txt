@@ -1,0 +1,110 @@
+    PID TTY      STAT   TIME COMMAND
+   2255 ?        Ss     0:06 /usr/lib/systemd/systemd --user
+   2257 ?        S      0:00 (sd-pam)
+   2275 ?        Sl     0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+   2288 tty2     Ssl+   0:00 /usr/libexec/gdm-wayland-session /usr/bin/gnome-session
+   2294 ?        Ss     0:00 /usr/bin/dbus-broker-launch --scope user
+   2300 ?        S      0:02 dbus-broker --log 4 --controller 9 --machine-id a0ae1ae33f744ca7b50e78d9720c8188 --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000
+   2302 tty2     Sl+    0:00 /usr/libexec/gnome-session-binary
+   2359 ?        Ssl    0:00 /usr/libexec/gnome-session-ctl --monitor
+   2360 ?        Ssl    0:02 /usr/libexec/uresourced --user
+   2363 ?        Ssl    0:00 /usr/libexec/gnome-session-binary --systemd-service --session=gnome
+   2366 ?        Ssl    0:00 /usr/libexec/gvfsd
+   2372 ?        Sl     0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+   2381 ?        Ssl    0:07 /usr/bin/pipewire
+   2385 ?        Ssl    1:57 /usr/bin/wireplumber
+   2424 ?        Ssl   38:28 /usr/bin/gnome-shell
+   2486 ?        Ssl    0:00 /usr/libexec/at-spi-bus-launcher
+   2492 ?        S      0:00 /usr/bin/dbus-broker-launch --config-file=/usr/share/defaults/at-spi2/accessibility.conf --scope user
+   2493 ?        S      0:00 dbus-broker --log 4 --controller 9 --machine-id a0ae1ae33f744ca7b50e78d9720c8188 --max-bytes 100000000000000 --max-fds 6400000 --max-matches 5000000000
+   2494 ?        Ssl    0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+   2499 ?        Ssl    0:00 /usr/libexec/gnome-shell-calendar-server
+   2500 ?        Ssl    0:00 /usr/libexec/xdg-permission-store
+   2506 ?        Ssl    0:00 /usr/libexec/dconf-service
+   2532 ?        Ssl    0:00 /usr/libexec/evolution-source-registry
+   2536 ?        Ssl    0:00 /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.Shell.Notifications
+   2538 ?        Ssl    0:15 /usr/bin/ibus-daemon --panel disable
+   2541 ?        Ssl    0:00 /usr/libexec/gsd-a11y-settings
+   2542 ?        Ssl    0:00 /usr/libexec/gsd-color
+   2546 ?        Ssl    0:00 /usr/libexec/gsd-datetime
+   2548 ?        Ssl    0:01 /usr/libexec/gsd-housekeeping
+   2549 ?        Ssl    0:00 /usr/libexec/gsd-keyboard
+   2554 ?        Ssl    0:01 /usr/libexec/gsd-media-keys
+   2555 ?        Ssl    0:00 /usr/libexec/gsd-power
+   2556 ?        Ssl    0:00 /usr/libexec/gsd-print-notifications
+   2557 ?        Ssl    0:00 /usr/libexec/gsd-rfkill
+   2561 ?        Ssl    0:00 /usr/libexec/gsd-screensaver-proxy
+   2564 ?        Ssl    0:02 /usr/libexec/gsd-sharing
+   2567 ?        Ssl    0:00 /usr/libexec/gsd-smartcard
+   2572 ?        Ssl    0:00 /usr/libexec/gsd-sound
+   2579 ?        Ssl    0:00 /usr/libexec/gsd-usb-protection
+   2585 ?        Ssl    0:00 /usr/libexec/gsd-wacom
+   2642 ?        Sl     0:00 /usr/libexec/gsd-disk-utility-notify
+   2677 ?        Sl     0:24 /usr/bin/gnome-software --gapplication-service
+   2681 ?        Sl     0:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+   2706 ?        Sl     0:00 /usr/libexec/ibus-dconf
+   2710 ?        Ssl    0:00 /usr/bin/abrt-applet --gapplication-service
+   2711 ?        Sl     0:04 /usr/libexec/ibus-extension-gtk3
+   2783 ?        Ssl    0:00 /usr/libexec/ibus-portal
+   2784 ?        Ssl    0:00 /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.ScreenSaver
+   2785 ?        Ssl    0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+   2820 ?        Ssl    0:00 /usr/libexec/goa-daemon
+   2828 ?        Ssl    0:00 /usr/libexec/gvfs-afc-volume-monitor
+   2829 ?        Ssl    0:00 /usr/libexec/evolution-calendar-factory
+   2837 ?        Ssl    0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+   2853 ?        Ssl    0:01 /usr/libexec/goa-identity-service
+   2855 ?        Ssl    0:00 /usr/libexec/gvfs-mtp-volume-monitor
+   2866 ?        Ssl    0:00 /usr/libexec/gvfs-goa-volume-monitor
+   2887 ?        Ssl    0:00 /usr/libexec/evolution-addressbook-factory
+   2973 ?        Sl     0:04 /usr/libexec/ibus-engine-simple
+   2994 ?        SLsl   5:42 /usr/bin/pipewire-pulse
+   3018 ?        Ssl    0:00 /usr/libexec/xdg-desktop-portal
+   3030 ?        Ssl    0:00 /usr/libexec/xdg-document-portal
+   3180 ?        Sl     0:00 /usr/libexec/gsd-printer
+   3181 ?        Ssl    0:01 /usr/libexec/xdg-desktop-portal-gnome
+   3200 ?        Ssl    0:00 /usr/libexec/xdg-desktop-portal-gtk
+   3345 ?        Sl     0:00 /usr/bin/python3 /usr/share/ibus-typing-booster/engine/main.py --ibus
+   3360 ?        Ssl    0:00 /usr/libexec/gvfsd-metadata
+   4998 ?        Sl    74:52 /usr/lib64/firefox/firefox
+   5116 ?        Sl     0:00 /usr/lib64/firefox/firefox -contentproc -parentBuildID 20241216112654 -prefsHandle 0 -prefsLen 32356 -prefMapHandle 1 -prefMapSize 260098 -sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId {f4473ff2-a707-403f-8934-185c7153c324} -parentPid 4998 -crashReporter 5 -appDir /usr/lib64/firefox/browser 1 socket
+   5138 ?        Sl     0:37 /usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 -prefsLen 32356 -prefMapHandle 1 -prefMapSize 260098 -jsInitHandle 2 -jsInitLen 234660 -parentBuildID 20241216112654 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {4b5d7d76-d330-4931-b76f-5dfa4ac4e22a} -parentPid 4998 -crashReporter 6 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 2 tab
+   5205 ?        Sl     1:01 /usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 -prefsLen 39471 -prefMapHandle 1 -prefMapSize 260098 -jsInitHandle 2 -jsInitLen 234660 -parentBuildID 20241216112654 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {30f3e43a-98e8-48fe-b6b9-ea0ed0732e1d} -parentPid 4998 -crashReporter 6 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 3 tab
+   5251 ?        Sl     6:44 /usr/lib64/firefox/firefox -contentproc -parentBuildID 20241216112654 -sandboxingKind 0 -prefsHandle 0 -prefsLen 39528 -prefMapHandle 1 -prefMapSize 260098 -sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId {505edbc1-3ec1-47e8-85d7-5429515a7ebe} -parentPid 4998 -crashReporter 5 -appDir /usr/lib64/firefox/browser 4 utility
+   5377 ?        Sl    15:30 /usr/lib64/firefox/firefox -contentproc -parentBuildID 20241216112654 -prefsHandle 0 -prefsLen 39825 -prefMapHandle 1 -prefMapSize 260098 -sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId {ae1a5ec6-57e3-409e-aeec-59f6a34737e3} -parentPid 4998 -crashReporter 5 -appDir /usr/lib64/firefox/browser 8 rdd
+   5914 ?        Ss     0:00 /usr/libexec/bluetooth/obexd
+   7715 ?        SLl    1:13 /usr/lib64/discord/Discord
+   7723 ?        S      0:00 /usr/lib64/discord/Discord --type=zygote --no-zygote-sandbox
+   7724 ?        S      0:00 /usr/lib64/discord/Discord --type=zygote
+   7726 ?        S      0:00 /usr/lib64/discord/Discord --type=zygote
+   7741 ?        Sl     0:00 /usr/lib64/discord/chrome_crashpad_handler --monitor-self-annotation=ptype=crashpad-handler --no-rate-limit --database=/home/zozo/.config/discord/Crashpad --url=https://f.a.k/e --annotation=_productName=discord --annotation=_version=0.0.78 --annotation=lsb-release=Fedora Linux 41 (Workstation Edition) --annotation=plat=Linux --annotation=prod=Electron --annotation=ver=32.2.7 --initial-client-fd=43 --shared-client-connection
+   7749 ?        Sl     0:10 /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.DITB02 -listenfd 4 -listenfd 5 -displayfd 6 -initfd 7 -byteswappedclients -enable-ei-portal
+   7762 ?        Ssl    0:00 /usr/libexec/gsd-xsettings
+   7786 ?        Sl     0:00 /usr/libexec/ibus-x11
+   7806 ?        Sl     0:03 /usr/libexec/mutter-x11-frames
+   7830 ?        Sl     2:01 /usr/lib64/discord/Discord --type=gpu-process --crashpad-handler-pid=7741 --enable-crash-reporter=536e13ce-4889-42ac-9390-9f4c747fcb9f,no_channel --user-data-dir=/home/zozo/.config/discord --gpu-preferences=UAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAABgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAABAAAAAAAAAAEAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --shared-files --field-trial-handle=3,i,8521820789333113356,15285654687001598801,262144 --disable-features=AllowAggressiveThrottlingWithWebSocket,HardwareMediaKeyHandling,IntensiveWakeUpThrottling,MediaSessionService,SpareRendererForSitePerProcess,UseEcoQoSForBackgroundProcess,WinRetrieveSuggestionsOnlyOnDemand --variations-seed-version
+   7834 ?        Sl     0:08 /usr/lib64/discord/Discord --type=utility --utility-sub-type=network.mojom.NetworkService --lang=fr --service-sandbox-type=none --crashpad-handler-pid=7741 --enable-crash-reporter=536e13ce-4889-42ac-9390-9f4c747fcb9f,no_channel --user-data-dir=/home/zozo/.config/discord --secure-schemes=disclip,sentry-ipc --bypasscsp-schemes=sentry-ipc --cors-schemes=sentry-ipc --fetch-schemes=disclip,sentry-ipc --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,8521820789333113356,15285654687001598801,262144 --disable-features=AllowAggressiveThrottlingWithWebSocket,HardwareMediaKeyHandling,IntensiveWakeUpThrottling,MediaSessionService,SpareRendererForSitePerProcess,UseEcoQoSForBackgroundProcess,WinRetrieveSuggestionsOnlyOnDemand --variations-seed-version
+   7954 ?        Sl    15:39 /usr/lib64/discord/Discord --type=renderer --crashpad-handler-pid=7741 --enable-crash-reporter=536e13ce-4889-42ac-9390-9f4c747fcb9f,no_channel --user-data-dir=/home/zozo/.config/discord --secure-schemes=disclip,sentry-ipc --bypasscsp-schemes=sentry-ipc --cors-schemes=sentry-ipc --fetch-schemes=disclip,sentry-ipc --app-path=/usr/lib64/discord/resources/app.asar --no-sandbox --no-zygote --enable-blink-features=EnumerateDevices,AudioOutputDevices --autoplay-policy=no-user-gesture-required --lang=fr --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=6 --time-ticks-at-unix-epoch=-1736570836030410 --launch-time-ticks=3872620510 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,8521820789333113356,15285654687001598801,262144 --disable-features=AllowAggressiveThrottlingWithWebSocket,HardwareMediaKeyHandling,IntensiveWakeUpThrottling,MediaSessionService,SpareRendererForSitePerProcess,UseEcoQoSForBackgroundProcess,WinRetrieveSuggestionsOnlyOnDemand --variations-seed-version --enable-node-leakage-in-renderers
+   7987 ?        Sl     0:01 /usr/lib64/discord/Discord --type=utility --utility-sub-type=audio.mojom.AudioService --lang=fr --service-sandbox-type=none --crashpad-handler-pid=7741 --enable-crash-reporter=536e13ce-4889-42ac-9390-9f4c747fcb9f,no_channel --user-data-dir=/home/zozo/.config/discord --secure-schemes=disclip,sentry-ipc --bypasscsp-schemes=sentry-ipc --cors-schemes=sentry-ipc --fetch-schemes=disclip,sentry-ipc --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,8521820789333113356,15285654687001598801,262144 --disable-features=AllowAggressiveThrottlingWithWebSocket,HardwareMediaKeyHandling,IntensiveWakeUpThrottling,MediaSessionService,SpareRendererForSitePerProcess,UseEcoQoSForBackgroundProcess,WinRetrieveSuggestionsOnlyOnDemand --variations-seed-version
+  19805 ?        Sl     0:00 /usr/lib64/speech-dispatcher-modules//sd_espeak-ng-mbrola /etc/speech-dispatcher/modules/espeak-ng-mbrola.conf
+  19808 ?        Sl     0:00 /usr/lib64/speech-dispatcher-modules//sd_espeak-ng /etc/speech-dispatcher/modules/espeak-ng.conf
+  19812 ?        Sl     0:01 /usr/lib64/speech-dispatcher-modules//sd_dummy /etc/speech-dispatcher/modules/dummy.conf
+  19815 ?        Ssl    0:00 /usr/bin/speech-dispatcher --spawn --communication-method unix_socket --socket-path /run/user/1000/speech-dispatcher/speechd.sock
+  29235 ?        Sl     0:00 /usr/libexec/gvfsd-trash --spawner :1.7 /org/gtk/gvfs/exec_spaw/0
+  29255 ?        SNsl   0:01 /usr/libexec/tracker-miner-fs-3
+  29294 ?        Sl     0:00 /usr/libexec/gvfsd-recent --spawner :1.7 /org/gtk/gvfs/exec_spaw/1
+  29299 ?        Sl     0:00 /usr/libexec/gvfsd-network --spawner :1.7 /org/gtk/gvfs/exec_spaw/2
+  29308 ?        Sl     0:00 /usr/libexec/gvfsd-dnssd --spawner :1.7 /org/gtk/gvfs/exec_spaw/3
+  29325 ?        Sl     0:00 /usr/libexec/gvfsd-wsdd --spawner :1.7 /org/gtk/gvfs/exec_spaw/4
+  29331 ?        S      0:00 /usr/bin/python3 /usr/bin/wsdd --no-host --discovery --listen /run/user/1000/gvfsd/wsdd
+  31675 ?        Ssl    0:00 /usr/bin/gnome-calendar --gapplication-service
+  31841 ?        Ssl    0:12 /usr/bin/ptyxis --gapplication-service
+  31848 ?        Ssl    0:01 /usr/libexec/ptyxis-agent --socket-fd=3
+  31875 ?        S      0:00 catatonit -P
+  31907 pts/0    Ss     0:00 /usr/bin/bash
+  37906 ?        Sl     0:37 /usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 -prefsLen 36516 -prefMapHandle 1 -prefMapSize 260098 -jsInitHandle 2 -jsInitLen 234660 -parentBuildID 20241216112654 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {b8acd30a-dd4e-4247-b866-8aa2dbd62468} -parentPid 4998 -crashReporter 6 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 236 tab
+  39275 ?        Sl     0:00 /usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 -prefsLen 36582 -prefMapHandle 1 -prefMapSize 260098 -jsInitHandle 2 -jsInitLen 234660 -parentBuildID 20241216112654 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {065628ef-232f-457d-8678-a57b5759bfd1} -parentPid 4998 -crashReporter 6 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 241 tab
+  39279 ?        Sl     0:18 /usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 -prefsLen 36582 -prefMapHandle 1 -prefMapSize 260098 -jsInitHandle 2 -jsInitLen 234660 -parentBuildID 20241216112654 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {aabaf9d2-6201-484e-8b20-37f21d8cd708} -parentPid 4998 -crashReporter 6 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 242 tab
+  39368 ?        Sl     0:00 /usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 -prefsLen 36582 -prefMapHandle 1 -prefMapSize 260098 -jsInitHandle 2 -jsInitLen 234660 -parentBuildID 20241216112654 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {982f1110-7b89-4006-9348-058dcb8e9e3e} -parentPid 4998 -crashReporter 6 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 243 tab
+  41462 ?        Sl     0:00 /usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 -prefsLen 36582 -prefMapHandle 1 -prefMapSize 260098 -jsInitHandle 2 -jsInitLen 234660 -parentBuildID 20241216112654 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {797bbd2e-17ed-42bf-9afe-fb13474a9172} -parentPid 4998 -crashReporter 6 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 244 tab
+  41466 ?        Sl     0:00 /usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 -prefsLen 36582 -prefMapHandle 1 -prefMapSize 260098 -jsInitHandle 2 -jsInitLen 234660 -parentBuildID 20241216112654 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {1ae6ded2-d290-446c-91f5-adcfb273ab3d} -parentPid 4998 -crashReporter 6 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 245 tab
+  42475 pts/0    R+     0:00 ps -x
